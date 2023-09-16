@@ -147,12 +147,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73c667d821aebd147bbbb58194b23281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CanFlip: 0
-  CanMove: 0
+  CanFlip: 1
+  CanMove: 1
   CanMoveLeft: 1
   CanMoveRight: 1
   speed: 8
-  CanJump: 0
+  CanJump: 1
   jumpingPower: 16
   CanTilt: 0
   TiltSpeed: 16

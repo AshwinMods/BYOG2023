@@ -127,7 +127,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b58a9ad23533d40469217235d4d0cd6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  JumpForce: 40
+  JumpForce: 20
 --- !u!50 &4134065853180565778
 Rigidbody2D:
   serializedVersion: 4
@@ -163,8 +163,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CanFlip: 0
   CanMove: 0
-  CanMoveLeft: 1
-  CanMoveRight: 1
+  CanMoveLeft: 0
+  CanMoveRight: 0
   speed: 8
   CanJump: 0
   jumpingPower: 16
