@@ -9,12 +9,18 @@ public class MovementController : MonoBehaviour
     private bool isFacingRight = true;
 
 	public bool CanFlip = false;
+	[Space]
 	public bool CanMove = false;
+	public bool CanMoveLeft = true;
+	public bool CanMoveRight = true;
 	public float speed = 8f;
+	[Space]
 	public bool CanJump = false;
 	public float jumpingPower = 16f;
-    public bool CanTilt = false;
+	[Space]
+	public bool CanTilt = false;
 	public float TiltSpeed = 16f;
+	[Space]
 	public bool UseExternalForce = false;
 	public float externalForceMul = 4f;
 
@@ -53,6 +59,8 @@ public class MovementController : MonoBehaviour
 	private void Move()
 	{
 		horizontal = Input.GetAxisRaw("Horizontal");
+		if (!CanMoveLeft) horizontal = Mathf.Max(0, horizontal);
+		if (!CanMoveRight) horizontal = Mathf.Min(0, horizontal);
 		rb.velocity = new Vector2(horizontal * speed, rb.velocity.y);
 	}
 	private void Jump()
