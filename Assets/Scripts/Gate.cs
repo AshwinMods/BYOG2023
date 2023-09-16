@@ -11,16 +11,18 @@ public class Gate : MonoBehaviour
     {
         if (other.collider.CompareTag("Player"))
         {
-            LoadNextScene();
-        }
-        if (enterDoor != null)
+            if (enterDoor != null)
             {
                 enterDoor.Play();
             }
-        if (EnterPrefab != null)
+             if (EnterPrefab != null)
             {
                 Instantiate(EnterPrefab, gameObject.transform.position, Quaternion.identity);
             }
+            Destroy(other.gameObject);
+            float restartDelay = 1f;
+            Invoke("LoadNextScene", restartDelay);
+        }
     }
 
     // Function to load the next scene
