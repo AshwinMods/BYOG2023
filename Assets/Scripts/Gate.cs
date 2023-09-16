@@ -4,6 +4,8 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class Gate : MonoBehaviour
 {
+    public AudioSource enterDoor;
+    public GameObject EnterPrefab;
 
     private void OnCollisionEnter2D(Collision2D other)
     {
@@ -11,6 +13,14 @@ public class Gate : MonoBehaviour
         {
             LoadNextScene();
         }
+        if (enterDoor != null)
+            {
+                enterDoor.Play();
+            }
+        if (EnterPrefab != null)
+            {
+                Instantiate(EnterPrefab, gameObject.transform.position, Quaternion.identity);
+            }
     }
 
     // Function to load the next scene
