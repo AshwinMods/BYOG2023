@@ -6,6 +6,7 @@ public class Gate : MonoBehaviour
 {
     public AudioSource enterDoor;
     public GameObject EnterPrefab;
+    public Animator transition;
 
     private void OnCollisionEnter2D(Collision2D other)
     {
@@ -21,8 +22,15 @@ public class Gate : MonoBehaviour
             }
             Destroy(other.gameObject);
             float restartDelay = 1f;
-            Invoke("LoadNextScene", restartDelay);
+            Invoke("transtionor", restartDelay);
         }
+    }
+
+    private void transtionor()
+    {   
+        transition.SetTrigger("start");
+        float restartDelay = 1f;
+        Invoke("LoadNextScene", restartDelay);
     }
 
     // Function to load the next scene
