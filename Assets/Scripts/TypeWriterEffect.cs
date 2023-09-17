@@ -23,7 +23,7 @@ public class TypeWriterEffect : MonoBehaviour
 
     IEnumerator StartTypewriterWithDelay()
     {
-        yield return new WaitForSeconds(2f); // Add a delay of 2 seconds before starting.
+        yield return new WaitForSeconds(0.1f); // Add a delay of 2 seconds before starting.
         StartCoroutine(TypeText());
     }
 

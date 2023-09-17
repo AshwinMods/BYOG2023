@@ -493,7 +493,7 @@ RectTransform:
   m_GameObject: {fileID: 459028215}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.16522, y: 1, z: 1}
+  m_LocalScale: {x: 1.4742364, y: 1.2652, z: 1.2652}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 606542631}
@@ -501,7 +501,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 97.32211}
+  m_AnchoredPosition: {x: 0, y: 76}
   m_SizeDelta: {x: 193.70001, y: -54.799988}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &459028217
@@ -524,7 +524,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Nonsence
+  m_text: MAKE NO SENSE
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ed05735ca6eaad84b9343a50f13e75db, type: 2}
   m_sharedMaterial: {fileID: 1275969647626735165, guid: ed05735ca6eaad84b9343a50f13e75db, type: 2}
@@ -533,8 +533,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4290005683
-  m_fontColor: {r: 0.7008614, g: 0.28969386, b: 0.7075472, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 1
   m_colorMode: 3
   m_fontColorGradient:
@@ -557,7 +557,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 3
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -1714,14 +1714,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.40943396, b: 0.9729238, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 827c64e1a72a06246a6e28286457e9e0, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f38cb4c06c4202440b824a1510fbb227, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

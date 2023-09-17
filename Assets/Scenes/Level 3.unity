@@ -1948,6 +1948,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Loader
       objectReference: {fileID: 0}
+    - target: {fileID: 711137495221640481, guid: 1dc7cf7640b8dba4da886c5f88d87dab, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 711137495221640482, guid: 1dc7cf7640b8dba4da886c5f88d87dab, type: 3}
       propertyPath: m_RootOrder
       value: 0
