@@ -29,7 +29,7 @@ public class Gate : MonoBehaviour
     private void transtionor()
     {   
         transition.SetTrigger("start");
-        float restartDelay = 1f;
+        float restartDelay = 0.6f;
         Invoke("LoadNextScene", restartDelay);
     }
 
