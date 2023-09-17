@@ -10,7 +10,7 @@ public class JumpPad : MonoBehaviour
 	private void OnTriggerEnter2D(Collider2D collision)
 	{
 		if (collision.attachedRigidbody != null)
-			collision.attachedRigidbody.AddForce(transform.up * JumpForce, ForceMode2D.Impulse);
+			collision.attachedRigidbody.velocity = (transform.up * JumpForce);
 
 		if (bounce != null)
             {

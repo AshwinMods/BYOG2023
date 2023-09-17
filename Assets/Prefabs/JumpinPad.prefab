@@ -163,6 +163,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73c667d821aebd147bbbb58194b23281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animator: {fileID: 0}
+  spriteRenderer: {fileID: 0}
   CanFlip: 0
   CanMove: 0
   CanMoveLeft: 0
@@ -179,6 +181,8 @@ MonoBehaviour:
   groundLayer:
     serializedVersion: 2
     m_Bits: 0
+  hasJumped: 0
+  canAnimate: 0
 --- !u!61 &4134065853180565776
 BoxCollider2D:
   m_ObjectHideFlags: 0
