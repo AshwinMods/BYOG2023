@@ -185,11 +185,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1367704885292436977, guid: f56de292c4060f84a86f6cc5781eb11e, type: 3}
   m_PrefabInstance: {fileID: 81871361}
   m_PrefabAsset: {fileID: 0}
---- !u!95 &82331354 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 711137494740615490, guid: 1dc7cf7640b8dba4da886c5f88d87dab, type: 3}
-  m_PrefabInstance: {fileID: 711137494809282456}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &106027890
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2446,6 +2441,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 1367704885292436977, guid: f56de292c4060f84a86f6cc5781eb11e, type: 3}
   m_PrefabInstance: {fileID: 889637795}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &996180735 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 6206016793838078626, guid: 1dc7cf7640b8dba4da886c5f88d87dab, type: 3}
+  m_PrefabInstance: {fileID: 711137494809282456}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1102770705
 PrefabInstance:
@@ -4914,7 +4914,7 @@ PrefabInstance:
     - target: {fileID: 6950993248807477462, guid: 08f6dd78d2a30384590d83f953e50ff3, type: 3}
       propertyPath: transition
       value: 
-      objectReference: {fileID: 82331354}
+      objectReference: {fileID: 996180735}
     - target: {fileID: 6950993248807477463, guid: 08f6dd78d2a30384590d83f953e50ff3, type: 3}
       propertyPath: m_Name
       value: Gate
